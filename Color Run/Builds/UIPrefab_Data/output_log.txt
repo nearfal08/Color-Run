@@ -1,0 +1,38 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   23.21.13.8813
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.103 seconds
+Platform assembly: C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Weston\Documents\Unity\UI Prefab\UI Prefab\Builds\UIPrefab_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 3.711698 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.533896 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 227.
+Total: 0.182384 ms (FindLiveObjects: 0.020431 ms CreateObjectMapping: 0.008112 ms MarkObjects: 0.121389 ms  DeleteObjects: 0.028244 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: ee8 -> priority: 1 
+  Thread -> id: 1cc8 -> priority: 1 
