@@ -29,12 +29,12 @@ public class Debris : MonoBehaviour
         if (isFalling)
         {
             transform.position = Vector3.MoveTowards(transform.position, blackHole.transform.position, gravityForce);
-            Debug.Log("Falling");
+            //Debug.Log("Falling");
         }
         else
         {
             transform.position = Vector3.MoveTowards(transform.position, blackHole.transform.position, -1 * inverseGravityForce); 
-            Debug.Log("Rising");
+            //Debug.Log("Rising");
         }
         transform.RotateAround(blackHole.transform.position, Vector3.forward, orbitSpeed * Time.deltaTime);
     } 

@@ -7,13 +7,32 @@ public class MissileSpawner : MonoBehaviour {
     public GameObject missile;
     public float maxPos = 2000.0f;
     public float minPos = 9.0f;
+    private float spawnSpeed = 2f; 
 
     // Use this for initialization
     void Start () {
-        InvokeRepeating("spawn", .5f, .5f);
+        // Start spawning missiles every 2 seconds.
+        InvokeRepeating("Spawn", 0f, spawnSpeed);
+
+        //Start the Spawn speed adjust in 15 seconds.
+        InvokeRepeating("IncreaseSpawnSpeed", 8, 8);
+
     }
 
-    void spawn()
+    void IncreaseSpawnSpeed()
+    {  
+        //Cancel the current subSpawn_Object Invoke.
+        CancelInvoke("Spawn");
+
+        spawnSpeed = spawnSpeed - .2f;
+
+        //Restart subSpawn_Object with new repeat time. 
+        InvokeRepeating("Spawn", 0, spawnSpeed);
+
+        Debug.Log("Missile spawn speed increased!");
+    }
+
+    void Spawn()
     {
         float randomX;
         float randomY;
